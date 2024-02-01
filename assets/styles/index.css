@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+header > section {
+    text-align: center;
+}
+
+.header-name {
+    font-size: 2em;
+    width: 40%;
+    margin: 0 auto;
+}
+.input-container {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.input-container > label{
+    width: 30%;
+    font-size: 1.5em;
+}
+#NUMBER {
+    min-width: 15%;
+    max-width: 20%;
+    padding: 10px;
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+.input-container > button {
+    font-size: 1.2em;
+    margin-top: 1em;
+    height: 50px;
+    width: 15%;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+}
+.input-container > button:hover{
+    background-color: darkcyan;
+}
